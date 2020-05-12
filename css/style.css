@@ -533,10 +533,12 @@ body {
   margin-bottom: 29px;
   font-weight: bold;
   max-width: 740px;
+  z-index: 10;
 }
 
 .realization .realization-text {
   max-width: 740px;
+  z-index: 10;
 }
 
 .realization .realization-img {
@@ -545,6 +547,25 @@ body {
 
 .realization img {
   max-width: 100%;
+}
+
+@media screen and (max-width: 1020px) {
+  .realization {
+    background: url(../img/browser.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    padding: 30px;
+    height: 200px;
+  }
+  .realization .realization-img {
+    display: none;
+  }
+  .realization .realization-main-text, .realization .realization-text {
+    display: none;
+  }
 }
 
 .wordpress {
