@@ -905,6 +905,12 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 1020px) {
+  .video {
+    display: none;
+  }
+}
+
 .excellent-device {
   height: 690px;
 }
@@ -954,6 +960,12 @@ body {
   font-size: 20px;
   color: #bba892;
   margin-right: 30px;
+}
+
+@media screen and (max-width: 1020px) {
+  .excellent-device {
+    background-color: #fbfaf8;
+  }
 }
 
 .counters {

@@ -709,6 +709,10 @@ body{
             text-align:center;
         }
     }
+
+    @media screen and (max-width:1020px) {
+        display:none;
+    }
 }
 
 .excellent-device{
@@ -755,6 +759,10 @@ body{
             }
 
         }
+    }
+
+    @media screen and (max-width:1020px) {
+        background-color:$light-color;
     }
 }
 
